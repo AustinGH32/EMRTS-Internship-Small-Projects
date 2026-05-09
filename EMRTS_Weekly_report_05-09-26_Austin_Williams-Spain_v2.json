@@ -1,0 +1,87 @@
+{
+  "report": {
+    "title": "EMRTS Weekly Report",
+    "date": "2026-05-09",
+    "intern": "Austin Williams-Spain",
+    "sections": [
+      {
+        "section": "LinkedIn",
+        "items": [
+          "Connected with EMRTS interns and Verbus",
+          "Requested to join Medicaid Professionals",
+          "Updated profile to show internship start"
+        ]
+      },
+      {
+        "section": "GitHub",
+        "items": [
+          "Created account",
+          "Created repository for EMRTS projects"
+        ]
+      },
+      {
+        "section": "Telegram",
+        "items": [
+          "Created Telegram account",
+          "Need link to group chat"
+        ]
+      },
+      {
+        "section": "WSL",
+        "items": [
+          "Set up WSL"
+        ]
+      },
+      {
+        "section": "MIT Python Lectures",
+        "items": [
+          "Watched Lecture 1 — What is Computation?",
+          "Watched Lecture 2 — Branching, Iteration"
+        ]
+      },
+      {
+        "section": "Completed Projects",
+        "items": [
+          "FizzBuzz Project",
+          "State Capitals Project",
+          "Tabind Project (in progress)"
+        ]
+      },
+      {
+        "section": "EMRTS Article",
+        "items": [
+          "Medicaid Auditing as a Service (MAaaS)"
+        ]
+      },
+      {
+        "section": "Intern Abroad HQ",
+        "items": [
+          "Completed Intern Abroad HQ weekly report"
+        ]
+      },
+      {
+        "section": "Learning Outcomes",
+        "items": [
+          {
+            "category": "GitHub",
+            "outcomes": [
+              "Practiced and learned how to create a repository",
+              "Learned how to commit files to a repository",
+              "Learned how to set up GitHub Desktop with Visual Studio"
+            ]
+          },
+          {
+            "category": "Projects",
+            "outcomes": [
+              "Learned about Geopy and how to get coordinates for state capitals",
+              "Practiced handling a request timing out",
+              "Practiced looping through a list and making changes",
+              "Learned how to read and write to a JSON file",
+              "Practiced using Claude"
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
