@@ -1,3 +1,16 @@
+
+
+#************************************************************************************************************#
+# FizzBuzz Project Instructions                                                                              #
+# Create a program that prints each number from 1 to 100 on a new line. For each multiple of 3, print "Fizz" #
+# instead of the number. For each multiple of 5, print "Buzz" instead of the number.                         #
+# For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.                   #
+#                                                                                                            #
+# This script will complete the instruction above. Multiples of 3 printed as Fizz, of 5 as Buzz, and 15 as   #
+# FizzBuzz                                                                                                   #
+#************************************************************************************************************#
+
+
 #defining the range up to 100
 for x in range(1,101):
     #checking for numbers that are multiples of 3 and 5
