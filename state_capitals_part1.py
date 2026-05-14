@@ -1,58 +1,71 @@
+#***********************************************************************#
+# Part 1                                                                #
+# The objective is to create a Python program that will create a valid  #
+# JSON file that contains all of the State Capital addresses.           #
+#                                                                       #
+# This code create a dictionary of state capitals and their addresses   #
+# and reads them to a JSON file.                                        #
+#***********************************************************************#
+
+#importing to create a JSON file
 import json
+
 #creating dictionary to read to JSON file
-capitals = {
-    "Alabama":        {"capital": "Montgomery",   "address": "600 Dexter Ave, Montgomery, AL 36130"},
-    "Alaska":         {"capital": "Juneau",        "address": "120 4th St, Juneau, AK 99801"},
-    "Arizona":        {"capital": "Phoenix",       "address": "1700 W Washington St, Phoenix, AZ 85007"},
-    "Arkansas":       {"capital": "Little Rock",   "address": "500 Woodlane St, Little Rock, AR 72201"},
-    "California":     {"capital": "Sacramento",    "address": "1315 10th St, Sacramento, CA 95814"},
-    "Colorado":       {"capital": "Denver",        "address": "200 E Colfax Ave, Denver, CO 80203"},
-    "Connecticut":    {"capital": "Hartford",      "address": "210 Capitol Ave, Hartford, CT 06106"},
-    "Delaware":       {"capital": "Dover",         "address": "411 Legislative Ave, Dover, DE 19901"},
-    "Florida":        {"capital": "Tallahassee",   "address": "400 S Monroe St, Tallahassee, FL 32399"},
-    "Georgia":        {"capital": "Atlanta",       "address": "206 Washington St SW, Atlanta, GA 30334"},
-    "Hawaii":         {"capital": "Honolulu",      "address": "415 S Beretania St, Honolulu, HI 96813"},
-    "Idaho":          {"capital": "Boise",         "address": "700 W Jefferson St, Boise, ID 83720"},
-    "Illinois":       {"capital": "Springfield",   "address": "401 S 2nd St, Springfield, IL 62701"},
-    "Indiana":        {"capital": "Indianapolis",  "address": "200 W Washington St, Indianapolis, IN 46204"},
-    "Iowa":           {"capital": "Des Moines",    "address": "1007 E Grand Ave, Des Moines, IA 50319"},
-    "Kansas":         {"capital": "Topeka",        "address": "300 SW 10th Ave, Topeka, KS 66612"},
-    "Kentucky":       {"capital": "Frankfort",     "address": "700 Capitol Ave, Frankfort, KY 40601"},
-    "Louisiana":      {"capital": "Baton Rouge",   "address": "900 N 3rd St, Baton Rouge, LA 70804"},
-    "Maine":          {"capital": "Augusta",       "address": "210 State St, Augusta, ME 04333"},
-    "Maryland":       {"capital": "Annapolis",     "address": "100 State Cir, Annapolis, MD 21401"},
-    "Massachusetts":  {"capital": "Boston",        "address": "24 Beacon St, Boston, MA 02133"},
-    "Michigan":       {"capital": "Lansing",       "address": "100 N Capitol Ave, Lansing, MI 48933"},
-    "Minnesota":      {"capital": "Saint Paul",    "address": "75 Rev Dr Martin Luther King Jr Blvd, Saint Paul, MN 55155"},
-    "Mississippi":    {"capital": "Jackson",       "address": "400 High St, Jackson, MS 39201"},
-    "Missouri":       {"capital": "Jefferson City","address": "201 W Capitol Ave, Jefferson City, MO 65101"},
-    "Montana":        {"capital": "Helena",        "address": "1301 E 6th Ave, Helena, MT 59601"},
-    "Nebraska":       {"capital": "Lincoln",       "address": "1445 K St, Lincoln, NE 68508"},
-    "Nevada":         {"capital": "Carson City",   "address": "101 N Carson St, Carson City, NV 89701"},
-    "New Hampshire":  {"capital": "Concord",       "address": "107 N Main St, Concord, NH 03301"},
-    "New Jersey":     {"capital": "Trenton",       "address": "125 W State St, Trenton, NJ 08608"},
-    "New Mexico":     {"capital": "Santa Fe",      "address": "490 Old Santa Fe Trail, Santa Fe, NM 87501"},
-    "New York":       {"capital": "Albany",        "address": "State St & Washington Ave, Albany, NY 12224"},
-    "North Carolina": {"capital": "Raleigh",       "address": "1 E Edenton St, Raleigh, NC 27601"},
-    "North Dakota":   {"capital": "Bismarck",      "address": "600 E Boulevard Ave, Bismarck, ND 58505"},
-    "Ohio":           {"capital": "Columbus",      "address": "1 Capitol Square, Columbus, OH 43215"},
-    "Oklahoma":       {"capital": "Oklahoma City", "address": "2300 N Lincoln Blvd, Oklahoma City, OK 73105"},
-    "Oregon":         {"capital": "Salem",         "address": "900 Court St NE, Salem, OR 97301"},
-    "Pennsylvania":   {"capital": "Harrisburg",    "address": "501 N 3rd St, Harrisburg, PA 17120"},
-    "Rhode Island":   {"capital": "Providence",    "address": "82 Smith St, Providence, RI 02903"},
-    "South Carolina": {"capital": "Columbia",      "address": "1100 Gervais St, Columbia, SC 29201"},
-    "South Dakota":   {"capital": "Pierre",        "address": "500 E Capitol Ave, Pierre, SD 57501"},
-    "Tennessee":      {"capital": "Nashville",     "address": "600 Dr Martin Luther King Jr Blvd, Nashville, TN 37243"},
-    "Texas":          {"capital": "Austin",        "address": "1100 Congress Ave, Austin, TX 78701"},
-    "Utah":           {"capital": "Salt Lake City","address": "350 N State St, Salt Lake City, UT 84114"},
-    "Vermont":        {"capital": "Montpelier",    "address": "115 State St, Montpelier, VT 05633"},
-    "Virginia":       {"capital": "Richmond",      "address": "1000 Bank St, Richmond, VA 23219"},
-    "Washington":     {"capital": "Olympia",       "address": "416 Sid Snyder Ave SW, Olympia, WA 98504"},
-    "West Virginia":  {"capital": "Charleston",    "address": "1900 Kanawha Blvd E, Charleston, WV 25305"},
-    "Wisconsin":      {"capital": "Madison",       "address": "2 E Main St, Madison, WI 53703"},
-    "Wyoming":        {"capital": "Cheyenne",      "address": "200 W 24th St, Cheyenne, WY 82002"},
+capitals =  {
+#Addresses split by each address line
+    "Alabama":        {"capital": "Montgomery",    "street": "600 Dexter Ave",                              "city": "Montgomery",    "state_abbr": "AL", "zip": "36130"},
+    "Alaska":         {"capital": "Juneau",         "street": "120 4th St",                                  "city": "Juneau",        "state_abbr": "AK", "zip": "99801"},
+    "Arizona":        {"capital": "Phoenix",        "street": "1700 W Washington St",                        "city": "Phoenix",       "state_abbr": "AZ", "zip": "85007"},
+    "Arkansas":       {"capital": "Little Rock",    "street": "500 Woodlane St",                             "city": "Little Rock",   "state_abbr": "AR", "zip": "72201"},
+    "California":     {"capital": "Sacramento",     "street": "1315 10th St",                                "city": "Sacramento",    "state_abbr": "CA", "zip": "95814"},
+    "Colorado":       {"capital": "Denver",         "street": "200 E Colfax Ave",                            "city": "Denver",        "state_abbr": "CO", "zip": "80203"},
+    "Connecticut":    {"capital": "Hartford",       "street": "210 Capitol Ave",                             "city": "Hartford",      "state_abbr": "CT", "zip": "06106"},
+    "Delaware":       {"capital": "Dover",          "street": "411 Legislative Ave",                         "city": "Dover",         "state_abbr": "DE", "zip": "19901"},
+    "Florida":        {"capital": "Tallahassee",    "street": "400 S Monroe St",                             "city": "Tallahassee",   "state_abbr": "FL", "zip": "32399"},
+    "Georgia":        {"capital": "Atlanta",        "street": "206 Washington St SW",                        "city": "Atlanta",       "state_abbr": "GA", "zip": "30334"},
+    "Hawaii":         {"capital": "Honolulu",       "street": "415 S Beretania St",                          "city": "Honolulu",      "state_abbr": "HI", "zip": "96813"},
+    "Idaho":          {"capital": "Boise",          "street": "700 W Jefferson St",                          "city": "Boise",         "state_abbr": "ID", "zip": "83720"},
+    "Illinois":       {"capital": "Springfield",    "street": "401 S 2nd St",                                "city": "Springfield",   "state_abbr": "IL", "zip": "62701"},
+    "Indiana":        {"capital": "Indianapolis",   "street": "200 W Washington St",                         "city": "Indianapolis",  "state_abbr": "IN", "zip": "46204"},
+    "Iowa":           {"capital": "Des Moines",     "street": "1007 E Grand Ave",                            "city": "Des Moines",    "state_abbr": "IA", "zip": "50319"},
+    "Kansas":         {"capital": "Topeka",         "street": "300 SW 10th Ave",                             "city": "Topeka",        "state_abbr": "KS", "zip": "66612"},
+    "Kentucky":       {"capital": "Frankfort",      "street": "700 Capitol Ave",                             "city": "Frankfort",     "state_abbr": "KY", "zip": "40601"},
+    "Louisiana":      {"capital": "Baton Rouge",    "street": "900 N 3rd St",                                "city": "Baton Rouge",   "state_abbr": "LA", "zip": "70804"},
+    "Maine":          {"capital": "Augusta",        "street": "210 State St",                                "city": "Augusta",       "state_abbr": "ME", "zip": "04333"},
+    "Maryland":       {"capital": "Annapolis",      "street": "100 State Cir",                               "city": "Annapolis",     "state_abbr": "MD", "zip": "21401"},
+    "Massachusetts":  {"capital": "Boston",         "street": "24 Beacon St",                                "city": "Boston",        "state_abbr": "MA", "zip": "02133"},
+    "Michigan":       {"capital": "Lansing",        "street": "100 N Capitol Ave",                           "city": "Lansing",       "state_abbr": "MI", "zip": "48933"},
+    "Minnesota":      {"capital": "Saint Paul",     "street": "75 Rev Dr Martin Luther King Jr Blvd",        "city": "Saint Paul",    "state_abbr": "MN", "zip": "55155"},
+    "Mississippi":    {"capital": "Jackson",        "street": "400 High St",                                 "city": "Jackson",       "state_abbr": "MS", "zip": "39201"},
+    "Missouri":       {"capital": "Jefferson City", "street": "201 W Capitol Ave",                           "city": "Jefferson City","state_abbr": "MO", "zip": "65101"},
+    "Montana":        {"capital": "Helena",         "street": "1301 E 6th Ave",                              "city": "Helena",        "state_abbr": "MT", "zip": "59601"},
+    "Nebraska":       {"capital": "Lincoln",        "street": "1445 K St",                                   "city": "Lincoln",       "state_abbr": "NE", "zip": "68508"},
+    "Nevada":         {"capital": "Carson City",    "street": "101 N Carson St",                             "city": "Carson City",   "state_abbr": "NV", "zip": "89701"},
+    "New Hampshire":  {"capital": "Concord",        "street": "107 N Main St",                               "city": "Concord",       "state_abbr": "NH", "zip": "03301"},
+    "New Jersey":     {"capital": "Trenton",        "street": "125 W State St",                              "city": "Trenton",       "state_abbr": "NJ", "zip": "08608"},
+    "New Mexico":     {"capital": "Santa Fe",       "street": "490 Old Santa Fe Trail",                      "city": "Santa Fe",      "state_abbr": "NM", "zip": "87501"},
+    "New York":       {"capital": "Albany",         "street": "State St & Washington Ave",                   "city": "Albany",        "state_abbr": "NY", "zip": "12224"},
+    "North Carolina": {"capital": "Raleigh",        "street": "1 E Edenton St",                              "city": "Raleigh",       "state_abbr": "NC", "zip": "27601"},
+    "North Dakota":   {"capital": "Bismarck",       "street": "600 E Boulevard Ave",                         "city": "Bismarck",      "state_abbr": "ND", "zip": "58505"},
+    "Ohio":           {"capital": "Columbus",       "street": "1 Capitol Square",                            "city": "Columbus",      "state_abbr": "OH", "zip": "43215"},
+    "Oklahoma":       {"capital": "Oklahoma City",  "street": "2300 N Lincoln Blvd",                         "city": "Oklahoma City", "state_abbr": "OK", "zip": "73105"},
+    "Oregon":         {"capital": "Salem",          "street": "900 Court St NE",                             "city": "Salem",         "state_abbr": "OR", "zip": "97301"},
+    "Pennsylvania":   {"capital": "Harrisburg",     "street": "501 N 3rd St",                                "city": "Harrisburg",    "state_abbr": "PA", "zip": "17120"},
+    "Rhode Island":   {"capital": "Providence",     "street": "82 Smith St",                                 "city": "Providence",    "state_abbr": "RI", "zip": "02903"},
+    "South Carolina": {"capital": "Columbia",       "street": "1100 Gervais St",                             "city": "Columbia",      "state_abbr": "SC", "zip": "29201"},
+    "South Dakota":   {"capital": "Pierre",         "street": "500 E Capitol Ave",                           "city": "Pierre",        "state_abbr": "SD", "zip": "57501"},
+    "Tennessee":      {"capital": "Nashville",      "street": "600 Dr Martin Luther King Jr Blvd",           "city": "Nashville",     "state_abbr": "TN", "zip": "37243"},
+    "Texas":          {"capital": "Austin",         "street": "1100 Congress Ave",                           "city": "Austin",        "state_abbr": "TX", "zip": "78701"},
+    "Utah":           {"capital": "Salt Lake City", "street": "350 N State St",                              "city": "Salt Lake City","state_abbr": "UT", "zip": "84114"},
+    "Vermont":        {"capital": "Montpelier",     "street": "115 State St",                                "city": "Montpelier",    "state_abbr": "VT", "zip": "05633"},
+    "Virginia":       {"capital": "Richmond",       "street": "1000 Bank St",                                "city": "Richmond",      "state_abbr": "VA", "zip": "23219"},
+    "Washington":     {"capital": "Olympia",        "street": "416 Sid Snyder Ave SW",                       "city": "Olympia",       "state_abbr": "WA", "zip": "98504"},
+    "West Virginia":  {"capital": "Charleston",     "street": "1900 Kanawha Blvd E",                         "city": "Charleston",    "state_abbr": "WV", "zip": "25305"},
+    "Wisconsin":      {"capital": "Madison",        "street": "2 E Main St",                                 "city": "Madison",       "state_abbr": "WI", "zip": "53703"},
+    "Wyoming":        {"capital": "Cheyenne",       "street": "200 W 24th St",                               "city": "Cheyenne",      "state_abbr": "WY", "zip": "82002"},
 }
+ 
 
 #reading to JSON file, indenting for readability
 with open("usa_state_capitals.json", "w") as f:
-    json.dump(capitals, f, indent = 4)
+    json.dump(capitals, f, indent = 4)    

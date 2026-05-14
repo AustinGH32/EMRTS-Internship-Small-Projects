@@ -1,202 +1,444 @@
 {
     "Alabama": {
         "capital": "Montgomery",
-        "address": "600 Dexter Ave, Montgomery, AL 36130"
+        "street": "600 Dexter Ave",
+        "city": "Montgomery",
+        "state_abbr": "AL",
+        "zip": "36130",
+        "latitude": 32.3777741,
+        "longitude": -86.3002857
     },
     "Alaska": {
         "capital": "Juneau",
-        "address": "120 4th St, Juneau, AK 99801"
+        "street": "120 4th St",
+        "city": "Juneau",
+        "state_abbr": "AK",
+        "zip": "99801",
+        "latitude": 58.3021659,
+        "longitude": -134.410103
     },
     "Arizona": {
         "capital": "Phoenix",
-        "address": "1700 W Washington St, Phoenix, AZ 85007"
+        "street": "1700 W Washington St",
+        "city": "Phoenix",
+        "state_abbr": "AZ",
+        "zip": "85007",
+        "latitude": 33.4481203,
+        "longitude": -112.0978012
     },
     "Arkansas": {
         "capital": "Little Rock",
-        "address": "500 Woodlane St, Little Rock, AR 72201"
+        "street": "500 Woodlane St",
+        "city": "Little Rock",
+        "state_abbr": "AR",
+        "zip": "72201",
+        "latitude": 34.7466091,
+        "longitude": -92.2892042
     },
     "California": {
         "capital": "Sacramento",
-        "address": "1315 10th St, Sacramento, CA 95814"
+        "street": "1315 10th St",
+        "city": "Sacramento",
+        "state_abbr": "CA",
+        "zip": "95814",
+        "latitude": 38.5766749,
+        "longitude": -121.4937139
     },
     "Colorado": {
         "capital": "Denver",
-        "address": "200 E Colfax Ave, Denver, CO 80203"
+        "street": "200 E Colfax Ave",
+        "city": "Denver",
+        "state_abbr": "CO",
+        "zip": "80203",
+        "latitude": 39.7387701,
+        "longitude": -104.9848153
     },
     "Connecticut": {
         "capital": "Hartford",
-        "address": "210 Capitol Ave, Hartford, CT 06106"
+        "street": "210 Capitol Ave",
+        "city": "Hartford",
+        "state_abbr": "CT",
+        "zip": "06106",
+        "latitude": 41.7641119,
+        "longitude": -72.6823114
     },
     "Delaware": {
         "capital": "Dover",
-        "address": "411 Legislative Ave, Dover, DE 19901"
+        "street": "411 Legislative Ave",
+        "city": "Dover",
+        "state_abbr": "DE",
+        "zip": "19901",
+        "latitude": 39.1573179,
+        "longitude": -75.5197365
     },
     "Florida": {
         "capital": "Tallahassee",
-        "address": "400 S Monroe St, Tallahassee, FL 32399"
+        "street": "400 S Monroe St",
+        "city": "Tallahassee",
+        "state_abbr": "FL",
+        "zip": "32399",
+        "latitude": 30.4381654,
+        "longitude": -84.28135
     },
     "Georgia": {
         "capital": "Atlanta",
-        "address": "206 Washington St SW, Atlanta, GA 30334"
+        "street": "206 Washington St SW",
+        "city": "Atlanta",
+        "state_abbr": "GA",
+        "zip": "30334",
+        "latitude": 33.7490553,
+        "longitude": -84.3881711
     },
     "Hawaii": {
         "capital": "Honolulu",
-        "address": "415 S Beretania St, Honolulu, HI 96813"
+        "street": "415 S Beretania St",
+        "city": "Honolulu",
+        "state_abbr": "HI",
+        "zip": "96813",
+        "latitude": 21.3073335,
+        "longitude": -157.8569903
     },
     "Idaho": {
         "capital": "Boise",
-        "address": "700 W Jefferson St, Boise, ID 83720"
+        "street": "700 W Jefferson St",
+        "city": "Boise",
+        "state_abbr": "ID",
+        "zip": "83720",
+        "latitude": 43.6177696,
+        "longitude": -116.1996904
     },
     "Illinois": {
         "capital": "Springfield",
-        "address": "401 S 2nd St, Springfield, IL 62701"
+        "street": "401 S 2nd St",
+        "city": "Springfield",
+        "state_abbr": "IL",
+        "zip": "62701",
+        "latitude": 39.7984258,
+        "longitude": -89.654918
     },
     "Indiana": {
         "capital": "Indianapolis",
-        "address": "200 W Washington St, Indianapolis, IN 46204"
+        "street": "200 W Washington St",
+        "city": "Indianapolis",
+        "state_abbr": "IN",
+        "zip": "46204",
+        "latitude": 39.7686684,
+        "longitude": -86.1626157
     },
     "Iowa": {
         "capital": "Des Moines",
-        "address": "1007 E Grand Ave, Des Moines, IA 50319"
+        "street": "1007 E Grand Ave",
+        "city": "Des Moines",
+        "state_abbr": "IA",
+        "zip": "50319",
+        "latitude": 41.5912051,
+        "longitude": -93.6038186
     },
     "Kansas": {
         "capital": "Topeka",
-        "address": "300 SW 10th Ave, Topeka, KS 66612"
+        "street": "300 SW 10th Ave",
+        "city": "Topeka",
+        "state_abbr": "KS",
+        "zip": "66612",
+        "latitude": 39.048124,
+        "longitude": -95.6780165
     },
     "Kentucky": {
         "capital": "Frankfort",
-        "address": "700 Capitol Ave, Frankfort, KY 40601"
+        "street": "700 Capitol Ave",
+        "city": "Frankfort",
+        "state_abbr": "KY",
+        "zip": "40601",
+        "latitude": 38.189526,
+        "longitude": -84.875227
     },
     "Louisiana": {
         "capital": "Baton Rouge",
-        "address": "900 N 3rd St, Baton Rouge, LA 70804"
+        "street": "900 N 3rd St",
+        "city": "Baton Rouge",
+        "state_abbr": "LA",
+        "zip": "70804",
+        "latitude": 30.4570571,
+        "longitude": -91.1873742
     },
     "Maine": {
         "capital": "Augusta",
-        "address": "210 State St, Augusta, ME 04333"
+        "street": "210 State St",
+        "city": "Augusta",
+        "state_abbr": "ME",
+        "zip": "04333",
+        "latitude": 44.3071917,
+        "longitude": -69.7817568
     },
     "Maryland": {
         "capital": "Annapolis",
-        "address": "100 State Cir, Annapolis, MD 21401"
+        "street": "100 State Cir",
+        "city": "Annapolis",
+        "state_abbr": "MD",
+        "zip": "21401",
+        "latitude": 38.9788796,
+        "longitude": -76.4910542
     },
     "Massachusetts": {
         "capital": "Boston",
-        "address": "24 Beacon St, Boston, MA 02133"
+        "street": "24 Beacon St",
+        "city": "Boston",
+        "state_abbr": "MA",
+        "zip": "02133",
+        "latitude": 42.358602,
+        "longitude": -71.0638751
     },
     "Michigan": {
         "capital": "Lansing",
-        "address": "100 N Capitol Ave, Lansing, MI 48933"
+        "street": "100 N Capitol Ave",
+        "city": "Lansing",
+        "state_abbr": "MI",
+        "zip": "48933",
+        "latitude": 42.7336057,
+        "longitude": -84.5554583
     },
     "Minnesota": {
         "capital": "Saint Paul",
-        "address": "75 Rev Dr Martin Luther King Jr Blvd, Saint Paul, MN 55155"
+        "street": "75 Rev Dr Martin Luther King Jr Blvd",
+        "city": "Saint Paul",
+        "state_abbr": "MN",
+        "zip": "55155"
     },
     "Mississippi": {
         "capital": "Jackson",
-        "address": "400 High St, Jackson, MS 39201"
+        "street": "400 High St",
+        "city": "Jackson",
+        "state_abbr": "MS",
+        "zip": "39201",
+        "latitude": 32.305126,
+        "longitude": -90.182958
     },
     "Missouri": {
         "capital": "Jefferson City",
-        "address": "201 W Capitol Ave, Jefferson City, MO 65101"
+        "street": "201 W Capitol Ave",
+        "city": "Jefferson City",
+        "state_abbr": "MO",
+        "zip": "65101",
+        "latitude": 38.5792198,
+        "longitude": -92.17298
     },
     "Montana": {
         "capital": "Helena",
-        "address": "1301 E 6th Ave, Helena, MT 59601"
+        "street": "1301 E 6th Ave",
+        "city": "Helena",
+        "state_abbr": "MT",
+        "zip": "59601",
+        "latitude": 46.5885443,
+        "longitude": -112.0375379
     },
     "Nebraska": {
         "capital": "Lincoln",
-        "address": "1445 K St, Lincoln, NE 68508"
+        "street": "1445 K St",
+        "city": "Lincoln",
+        "state_abbr": "NE",
+        "zip": "68508",
+        "latitude": 40.807998,
+        "longitude": -96.6997198
     },
     "Nevada": {
         "capital": "Carson City",
-        "address": "101 N Carson St, Carson City, NV 89701"
+        "street": "101 N Carson St",
+        "city": "Carson City",
+        "state_abbr": "NV",
+        "zip": "89701",
+        "latitude": 39.164029,
+        "longitude": -119.766877
     },
     "New Hampshire": {
         "capital": "Concord",
-        "address": "107 N Main St, Concord, NH 03301"
+        "street": "107 N Main St",
+        "city": "Concord",
+        "state_abbr": "NH",
+        "zip": "03301",
+        "latitude": 43.2068627,
+        "longitude": -71.5381542
     },
     "New Jersey": {
         "capital": "Trenton",
-        "address": "125 W State St, Trenton, NJ 08608"
+        "street": "125 W State St",
+        "city": "Trenton",
+        "state_abbr": "NJ",
+        "zip": "08608",
+        "latitude": 40.220782,
+        "longitude": -74.769477
     },
     "New Mexico": {
         "capital": "Santa Fe",
-        "address": "490 Old Santa Fe Trail, Santa Fe, NM 87501"
+        "street": "490 Old Santa Fe Trail",
+        "city": "Santa Fe",
+        "state_abbr": "NM",
+        "zip": "87501",
+        "latitude": 35.6823019,
+        "longitude": -105.939634
     },
     "New York": {
         "capital": "Albany",
-        "address": "State St & Washington Ave, Albany, NY 12224"
+        "street": "State St & Washington Ave",
+        "city": "Albany",
+        "state_abbr": "NY",
+        "zip": "12224"
     },
     "North Carolina": {
         "capital": "Raleigh",
-        "address": "1 E Edenton St, Raleigh, NC 27601"
+        "street": "1 E Edenton St",
+        "city": "Raleigh",
+        "state_abbr": "NC",
+        "zip": "27601",
+        "latitude": 35.7803975,
+        "longitude": -78.6390995
     },
     "North Dakota": {
         "capital": "Bismarck",
-        "address": "600 E Boulevard Ave, Bismarck, ND 58505"
+        "street": "600 E Boulevard Ave",
+        "city": "Bismarck",
+        "state_abbr": "ND",
+        "zip": "58505",
+        "latitude": 46.8167422,
+        "longitude": -100.7832689
     },
     "Ohio": {
         "capital": "Columbus",
-        "address": "1 Capitol Square, Columbus, OH 43215"
+        "street": "1 Capitol Square",
+        "city": "Columbus",
+        "state_abbr": "OH",
+        "zip": "43215"
     },
     "Oklahoma": {
         "capital": "Oklahoma City",
-        "address": "2300 N Lincoln Blvd, Oklahoma City, OK 73105"
+        "street": "2300 N Lincoln Blvd",
+        "city": "Oklahoma City",
+        "state_abbr": "OK",
+        "zip": "73105",
+        "latitude": 35.4922055,
+        "longitude": -97.5033333
     },
     "Oregon": {
         "capital": "Salem",
-        "address": "900 Court St NE, Salem, OR 97301"
+        "street": "900 Court St NE",
+        "city": "Salem",
+        "state_abbr": "OR",
+        "zip": "97301",
+        "latitude": 44.9382743,
+        "longitude": -123.0307767
     },
     "Pennsylvania": {
         "capital": "Harrisburg",
-        "address": "501 N 3rd St, Harrisburg, PA 17120"
+        "street": "501 N 3rd St",
+        "city": "Harrisburg",
+        "state_abbr": "PA",
+        "zip": "17120",
+        "latitude": 40.2643941,
+        "longitude": -76.8837375
     },
     "Rhode Island": {
         "capital": "Providence",
-        "address": "82 Smith St, Providence, RI 02903"
+        "street": "82 Smith St",
+        "city": "Providence",
+        "state_abbr": "RI",
+        "zip": "02903",
+        "latitude": 41.8308956,
+        "longitude": -71.4149587
     },
     "South Carolina": {
         "capital": "Columbia",
-        "address": "1100 Gervais St, Columbia, SC 29201"
+        "street": "1100 Gervais St",
+        "city": "Columbia",
+        "state_abbr": "SC",
+        "zip": "29201",
+        "latitude": 34.0003435,
+        "longitude": -81.0330519
     },
     "South Dakota": {
         "capital": "Pierre",
-        "address": "500 E Capitol Ave, Pierre, SD 57501"
+        "street": "500 E Capitol Ave",
+        "city": "Pierre",
+        "state_abbr": "SD",
+        "zip": "57501",
+        "latitude": 44.3661854,
+        "longitude": -100.3464285
     },
     "Tennessee": {
         "capital": "Nashville",
-        "address": "600 Dr Martin Luther King Jr Blvd, Nashville, TN 37243"
+        "street": "600 Dr Martin Luther King Jr Blvd",
+        "city": "Nashville",
+        "state_abbr": "TN",
+        "zip": "37243"
     },
     "Texas": {
         "capital": "Austin",
-        "address": "1100 Congress Ave, Austin, TX 78701"
+        "street": "1100 Congress Ave",
+        "city": "Austin",
+        "state_abbr": "TX",
+        "zip": "78701",
+        "latitude": 30.276485,
+        "longitude": -97.739768
     },
     "Utah": {
         "capital": "Salt Lake City",
-        "address": "350 N State St, Salt Lake City, UT 84114"
+        "street": "350 N State St",
+        "city": "Salt Lake City",
+        "state_abbr": "UT",
+        "zip": "84114",
+        "latitude": 40.7377883,
+        "longitude": -111.8883211
     },
     "Vermont": {
         "capital": "Montpelier",
-        "address": "115 State St, Montpelier, VT 05633"
+        "street": "115 State St",
+        "city": "Montpelier",
+        "state_abbr": "VT",
+        "zip": "05633",
+        "latitude": 44.2626941,
+        "longitude": -72.5807647
     },
     "Virginia": {
         "capital": "Richmond",
-        "address": "1000 Bank St, Richmond, VA 23219"
+        "street": "1000 Bank St",
+        "city": "Richmond",
+        "state_abbr": "VA",
+        "zip": "23219",
+        "latitude": 37.5388175,
+        "longitude": -77.4335577
     },
     "Washington": {
         "capital": "Olympia",
-        "address": "416 Sid Snyder Ave SW, Olympia, WA 98504"
+        "street": "416 Sid Snyder Ave SW",
+        "city": "Olympia",
+        "state_abbr": "WA",
+        "zip": "98504",
+        "latitude": 47.0357617,
+        "longitude": -122.9048521
     },
     "West Virginia": {
         "capital": "Charleston",
-        "address": "1900 Kanawha Blvd E, Charleston, WV 25305"
+        "street": "1900 Kanawha Blvd E",
+        "city": "Charleston",
+        "state_abbr": "WV",
+        "zip": "25305",
+        "latitude": 38.3363062,
+        "longitude": -81.6122744
     },
     "Wisconsin": {
         "capital": "Madison",
-        "address": "2 E Main St, Madison, WI 53703"
+        "street": "2 E Main St",
+        "city": "Madison",
+        "state_abbr": "WI",
+        "zip": "53703",
+        "latitude": 43.0746917,
+        "longitude": -89.3841658
     },
     "Wyoming": {
         "capital": "Cheyenne",
-        "address": "200 W 24th St, Cheyenne, WY 82002"
+        "street": "200 W 24th St",
+        "city": "Cheyenne",
+        "state_abbr": "WY",
+        "zip": "82002",
+        "latitude": 41.1402683,
+        "longitude": -104.8202289
     }
 }

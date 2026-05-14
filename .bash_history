@@ -60,3 +60,10 @@ git remote add origin https://github.com/AustinGH32/EMRTS.git
 git add .gitignore
 git commit -m "Fix gitignore to block SSH keys"
 git push origin main --force
+nano fizzbuzz.py
+git add .
+git commit -m "Added flower box to python script"
+git push
+git push --set-upstream origin main
+nano state_capitals_part1.py
+nano run.sh
