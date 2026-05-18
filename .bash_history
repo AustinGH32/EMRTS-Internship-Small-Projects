@@ -97,3 +97,13 @@ nano state_capitals_part2.py
 git add .
 git commit -m "Indentation fix and flower boxes for parts 1 and 2"
 git push
+nano water_jug_problem.py
+git add .
+git commit -m "Water jug problem solver"
+git push
+nano tabind_project.py
+git add .
+git commit -m "Tabind Scrabble Project"
+git push
+nano tabind_project.py
+git pull
