@@ -67,3 +67,33 @@ git push
 git push --set-upstream origin main
 nano state_capitals_part1.py
 nano run.sh
+ls *.sh
+run2.sh
+nano run.sh
+python3 run.sh
+nano run.sh
+./run.sh
+nano state_capitals_part2
+./run.sh
+nano state_capitals
+nano state_capitals_part2.py
+./run.sh
+nano state_capitals_part2.py
+./run.sh
+nano state_capitals_part2.py
+unexpand --first-only -t 4 state_capitals_part2.py > fixed.py && mv fixed.py state_capitals_part2.py
+./run.sh
+nano state_capitals_part2.py
+cat state_capitals_part2.py
+nano state_capitals_part2.py
+./run.sh
+nano state_capitals_part2.py
+./run.sh
+nano state_capitals_part2.py
+./run.sh
+nano run.sh
+nano state_capitals_part1.py
+nano state_capitals_part2.py
+git add .
+git commit -m "Indentation fix and flower boxes for parts 1 and 2"
+git push
