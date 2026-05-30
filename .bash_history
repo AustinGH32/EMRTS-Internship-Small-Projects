@@ -107,3 +107,28 @@ git commit -m "Tabind Scrabble Project"
 git push
 nano tabind_project.py
 git pull
+nano tabind_project.py
+git add .
+git commit -m "Tabind Scrabble Project"
+git push
+python --version
+python3 --version
+pip3 intall pipenv
+pip3 install pipenv
+install pyton3-penv
+install python3-pipenv
+apt install python3-pipenv
+sudo apt install python3-pipenv
+sudo apt update
+sudo apt install python3-venv
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.14.5
+sudo add-apt-repository ppa:deadsnakes/ppa
+sudo apt update
+sudo apt install python3.14
+sudo apt update
+sudo apt install python3-venv
+sudo apt install python3-pipenv
+python3 --version
+sudo apt install python3.14-venv
