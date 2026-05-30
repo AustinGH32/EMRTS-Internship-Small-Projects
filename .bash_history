@@ -132,3 +132,86 @@ sudo apt install python3-venv
 sudo apt install python3-pipenv
 python3 --version
 sudo apt install python3.14-venv
+mkdir state_capitals
+mkdir fizzbuzz
+mkdir water_jug_problem
+mkdir tabind_scrabble
+mv state_capitals_part1.py/ state_capitals
+git add .
+git commit -m "Reorganizing into folders"
+git push origin main
+mv state_capitals_part.py state_capitals/
+git add .
+git commit -m "Moving state capitals part 1 to folder"
+git pull origin main
+git push origin main
+mv state_capitals_part1.py state_capitals/
+git add .
+git commit -m "Move state_capitals_part1.py into folder"
+git pull origin main
+git push origin main
+mv state_capitals_part2.py state_capitals/
+git add .
+git commit -m "Moving to folder"
+git push origin main
+nano state_capitals_part1
+ls
+nano state_capitals_part1
+nano run.sh
+git add .
+git commit -m "correct sc part1 file"
+git push
+nano run3.sh
+chmod +x run.sh
+chmod +x run3.sh
+./run3.sh
+python3 state_capitals_part1
+nano state_capitals_part2
+nano run.sh
+nano run3.sh
+python3 run.sh
+/run3.sh
+/run.sh
+./run.sh
+nano run.sh
+nano run3.sh
+./run3.sh
+nano state_capitals_part1
+nano state_capitals_part2
+./run3.sh
+nano state_capitals_part2
+./run3.sh
+nano state_capitals_part2
+./run3.sh
+nano run3.sh
+./run3.sh
+nano run3.sh
+./run3.sh
+git add .
+git commit -m "Fixed state capitals script"
+git push
+git pull
+git push
+mv run3.sh state_capitals/
+git add .
+git commit -m "moving script for state capitals to folder"
+git push
+mv run2.sh fizzbuzz
+git add .
+git commit -m "moving fizzbuzz script to folder"
+git push
+nano tabind_project.py
+cp "C:\Users\Austin\Downloads\TWL06.txt"
+cp C:\Users\Austin\Downloads\TWL06.txt tabind_scrabble/
+cp /mnt/c/Users/Austin/Downloads/TWL06.txt tabind_scrabble/
+git add .
+git commit -m "Add TWL06.txt word list"
+git push origin main
+nano run.sh
+chmod +x run.sh
+./run.sh
+mv run.sh tabind_scrabble/
+git add .
+git commit -m "moving tabind script to folder
+git commit -m "moving tabind script to folder"
+git push
