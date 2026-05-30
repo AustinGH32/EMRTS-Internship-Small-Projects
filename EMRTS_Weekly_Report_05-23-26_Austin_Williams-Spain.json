@@ -1,0 +1,53 @@
+{
+  "report_title": "EMRTS Weekly Report",
+  "date": "05-23-26",
+  "author": {
+    "name": "Austin Williams-Spain",
+    "mobile": "714-331-2424",
+    "email": "awspain32@gmail.com",
+    "telegram": "6234490664",
+    "github": "https://github.com/AustinGH32/EMRTS"
+  },
+  "lecture_videos_completed": [
+    {
+      "topic": "Tuples, Lists, Aliasing, Mutability, Cloning",
+      "notes": [
+        "Tuples – ordered sequences of elements, can mix types. Immutable",
+        "Lists – Ordered sequence of info accessible by index"
+      ]
+    },
+    {
+      "topic": "Recursion, Dictionaries",
+      "notes": [
+        "Recursion – reduce problem to simpler versions of the same program.",
+        "Dictionary – Clean way to store list, can have a key that's not just a number"
+      ]
+    },
+    {
+      "topic": "Testing, Debugging, Exceptions, Assertions",
+      "notes": [
+        "Covered ways to program to lead to easier debugging",
+        "Covered different types of tests",
+        "Covered debugging steps and error messages"
+      ]
+    }
+  ],
+  "project_and_django": [
+    "Django installed",
+    "Learned structure of Django project",
+    {
+      "mvt_architecture": {
+        "Model": "database layer",
+        "View": "logic layer that handles requests",
+        "Template": "Presentation layer (what the user will see)"
+      }
+    },
+    "Started Reading Django Cookbook",
+    "Working on provider exclusion project",
+    "Reinstalled Pgadmin for PostgreSQL",
+    "Defined the tables to be imported from the excel spreadsheet"
+  ],
+  "intern_abroad": [
+    "Completed Weekly Report"
+  ]
+}
