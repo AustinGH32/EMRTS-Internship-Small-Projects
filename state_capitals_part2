@@ -5,7 +5,7 @@ from geopy.geocoders import Nominatim
 from geopy.exc import GeocoderTimedOut
 
 #reading from file
-with open(r"C:\Users\Austin\Documents\GitHub\EMRTS\usa_state_capitals.json", "r") as f:
+with open("state_capitals/output.json", "r") as f:
     capitals = json.load(f)
 
 #checking to see if it loaded properly

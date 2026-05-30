@@ -50,8 +50,8 @@
         "city": "Denver",
         "state_abbr": "CO",
         "zip": "80203",
-        "latitude": 39.7387701,
-        "longitude": -104.9848153
+        "latitude": 39.7391667,
+        "longitude": -104.9848203
     },
     "Connecticut": {
         "capital": "Hartford",
@@ -59,8 +59,8 @@
         "city": "Hartford",
         "state_abbr": "CT",
         "zip": "06106",
-        "latitude": 41.7641119,
-        "longitude": -72.6823114
+        "latitude": 41.7639854,
+        "longitude": -72.6823649
     },
     "Delaware": {
         "capital": "Dover",
@@ -228,8 +228,8 @@
         "city": "Helena",
         "state_abbr": "MT",
         "zip": "59601",
-        "latitude": 46.5885443,
-        "longitude": -112.0375379
+        "latitude": 46.588232,
+        "longitude": -112.0366796
     },
     "Nebraska": {
         "capital": "Lincoln",
@@ -298,8 +298,8 @@
         "city": "Bismarck",
         "state_abbr": "ND",
         "zip": "58505",
-        "latitude": 46.8167422,
-        "longitude": -100.7832689
+        "latitude": 46.816826,
+        "longitude": -100.781199
     },
     "Ohio": {
         "capital": "Columbus",
@@ -359,8 +359,8 @@
         "city": "Pierre",
         "state_abbr": "SD",
         "zip": "57501",
-        "latitude": 44.3661854,
-        "longitude": -100.3464285
+        "latitude": 44.3671052,
+        "longitude": -100.3463803
     },
     "Tennessee": {
         "capital": "Nashville",
