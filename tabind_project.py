@@ -24,7 +24,7 @@ scrabble = []
 scrabble.sort() #sort the scrabble list alphabetically
 
 #read in a txt file for scrabble words
-with open(r"C:\Users\Austin\Downloads\TWL06.txt", "r") as file:
+with open("tabind_scrabble/TWL06.txt", "r") as file:
     for line in file:
         # adding in each word to the scrabble list
         # removes white space and makes all letters lowercase for easier comparison
