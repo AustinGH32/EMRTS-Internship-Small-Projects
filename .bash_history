@@ -254,3 +254,67 @@ git add .
 git commit -m "adding wjp"
 git push
 nano fizzbuzz.py
+# Go to home directory and make a test folder
+cd ~
+mkdir test_clone
+cd test_clone
+# Clone your repo fresh
+git clone https://github.com/AustinGH32/EMRTS.git
+cd EMRTS
+# Run the script
+./run.sh
+./run2.sh
+ls -la
+# Go back to your original repo
+cd ~
+mv run.sh EMRTS/
+cd EMRTS
+git add run.sh
+git commit -m "Add run.sh to repo"
+git push origin main
+pwd
+ls
+mv run.sh ~/EMRTS/
+mv fizzbuzz.py ~/EMRTS/fizzbuzz/
+find ~ -name "EMRTS" -type d
+ls ~
+ls ~/run*.sh
+nano run_state_capitals.sh
+nano run_fizzbuzz.sh
+nano run_scrabble.sh
+nano run_fizzbuzz.sh
+nano run_state_capitals.sh
+nano run_fizzbuzz.sh
+nano run_scabble.sh
+nano run_fizzbuzz.sh
+nano run_scrabble.sh
+nano run_state_capitals.sh
+nano run_water_jug.sh
+chmod +x run_state_capitals.sh run_fizzbuzz.sh run_scrabble.sh run_water_jug.sh
+git add .
+git commit -m "Add individual run scripts for each project"
+git pull origin main
+git push origin main
+ls
+mv fizzbuzz.py fizzbuzz/
+nano run_state_capitals.sh
+ls fizzbuzz/ state_capitals/ tabind_scrabble/ water_jug_problem/
+rm fizzbuzz/run2.sh
+rm state_capitals/run3.sh
+rm tabind_scrabble/run.sh
+rm water_jug_problem/run4.sh
+git add .
+git commit -m "Clean up run scripts and fix filenames"
+git pull origin main
+git push origin main
+mv run_fizzbuzz.sh fizzbuzz/
+mv run_scrabble.sh tabind_scrabble/
+mv run_state_capitals.sh state_capitals/
+mv run_water_jug.sh water_jug_problem/
+nano run_fizzbuzz.sh
+nano run_state_capitals.sh
+ls
+mv run_fizzbuzz.sh fizzbuzz/
+mv run_scrabble.sh tabind_scrabble/
+mv run_state_capitals.sh state_capitals/
+mv run_water_jug.sh water_jug_problem/
