@@ -215,3 +215,42 @@ git add .
 git commit -m "moving tabind script to folder
 git commit -m "moving tabind script to folder"
 git push
+mv run.sh tabind_scrabble/
+nano run.sh
+ls
+nano tabind_scrabble
+nano tabind_scrabble.py
+nano tabind_project.py
+mv tabind_project.py tabind_scrabble/
+git add .
+git commit -m "moving tabind script to folder"
+git push
+nano run4.sh
+nano run3.sh
+nano run4.sh
+nano water_jug_problem
+nano water_jug_problem.py
+nano run4.sh
+chmod +x run4.sh
+./run4.sh
+mv run4.sh water_jug_problem/ 
+git add .
+git commit -m "moving script for wjp into folder"
+git push
+nano water_jug_problem.py
+nano fizzbuzz.py
+mv water_jug_problem.py water_jug_problem
+mv fizz.py fizzbuzz/
+mv water_jug_problem.py water_jug_problem/
+mv fizzbuzz.py fizzbuzz/
+git add .
+git commit -m "adding files to folders"
+git push
+git pull
+git push
+ls
+nano water_jug_problem.py
+git add .
+git commit -m "adding wjp"
+git push
+nano fizzbuzz.py
