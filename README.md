@@ -22,9 +22,18 @@ Checks whether a word is valid in Scrabble using the TWL06 word list.
 - [Solution](tabind_scrabble/tabind_project.py)
 
 ## How to Run
+<<<<<<< HEAD
 Each project has its own run script. For example:
    cd state_capitals
    ./run_state_capitals.sh
 
 Each project also has a python file by itself if you prefer
 a simple python file.
+
+1. Clone the repo:
+   git clone https://github.com/AustinGH32/EMRTS.git
+2. Navigate into the folder:
+   cd EMRTS
+3. Run the matching script for the project you are looking for:
+   ex: ./run.sh
+
