@@ -22,7 +22,6 @@ Checks whether a word is valid in Scrabble using the TWL06 word list.
 - [Solution](tabind_scrabble/tabind_project.py)
 
 ## How to Run
-<<<<<<< HEAD
 Each project has its own run script. For example:
    cd state_capitals
    ./run_state_capitals.sh
